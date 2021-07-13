@@ -3,6 +3,7 @@
 
 /* common style or utilities */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
@@ -11,7 +12,52 @@ main{
     flex-direction: column;
     align-items: center;
 }
-/* top-section */
+    /* ----------------------------------
+        Navigation Bar and logo style 
+    ------------------------------------*/
+    .navigatio{
+        width: 100%;
+        height: 94px;
+        background-color: #562EFF;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-design{
+        width: 930px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-logo img{
+        width: 41px;
+        height: 51px;
+        margin-right: 16px;
+    }
+    .nav-logo .logo-title{
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+    .nav-menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        list-style: none;
+        margin-left: 36px;
+    }
+    li a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+/* -------------------
+    top-section 
+----------------------*/
 .container{
     width: 870px;
     background-color: #FFFFFF;
@@ -22,7 +68,9 @@ main{
 .top-players{
     margin-bottom: 30px;
 }
-/* players style */
+/* ------------------
+    players style 
+---------------------*/
 .players{
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
