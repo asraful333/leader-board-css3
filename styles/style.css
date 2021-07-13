@@ -61,6 +61,7 @@ h2.margin{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 26px;
+    grid-column-gap: 46px;
 }
 .blog{
     display: flex;
@@ -74,10 +75,13 @@ h2.margin{
 }
 .blog-title{
     font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 5px;
 }
 .blog-author{
     font-size: 16px;
     color: #9F9F9F;
+    margin-top: 0;
 }
 .blog-author a{
     text-decoration: none;
@@ -96,7 +100,9 @@ h2.margin{
        grid-column-gap: 24px;
    }
    .course{
-       padding: 15px;
+       width: 252px;
+       height: 270px;
+       padding: 10px;
        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
        border-radius: 20px;
    }
@@ -105,11 +111,15 @@ h2.margin{
     height: 104px;
    }
    .course-details .course-title{
-       font-size: 21px;
+       margin-top: 19px;
+       margin-bottom: 7px;
+       font-size: 20px;
    }
    .course-details .course-author{
        color: #ED6B4F;
        font-size: 15px;
+       margin-top: 0;
+       margin-bottom: 12px;
    }
    .course-info{
     display: flex;
